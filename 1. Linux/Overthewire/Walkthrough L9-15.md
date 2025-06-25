@@ -3,18 +3,6 @@
 Now it's starting to heat up!
 ---
 
-## 💡 Prereqs
-
-* Any Unix‑like shell (Linux, macOS, WSL, or a cloud VM)
-* A plain‑old SSH client
-
-```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
-# initial password: bandit0
-```
-
----
-
 ### Level 9 ➡ 10 — Hidden string inside a binary 
 
 We have a hidden string inside a binary so we extract strings and use grep to filter for "===".
