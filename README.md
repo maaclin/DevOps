@@ -25,7 +25,7 @@
 
  I love solving problems, automating repetitive tasks, and building systems that just work. This repo is my way of staying organized, reflecting on what I’ve learned, and maybe even helping others who are on a similar path.
 
-I’m organizing things by topic, so you’ll see folders like networking/, linux/, bash-scripting/, terraform/, docker/, aws/, and kubernetes/. Each folder will have its own README or files explaining what’s inside.
+I’m organizing things by topic, so you’ll see folders like networking/, linux/, bash-scripting/, terraform/, docker/, aws/, kubernetes/ and git/. Each folder will have its own README or files explaining what’s inside.
 
 If you’re also studying DevOps, feel free to explore this repo for inspiration or ideas. I’ve only just begun but I’m happy to share what I’m learning. If you spot a mistake, have a tip, or want to collaborate on something, open an issue or shoot me a message. Learning is better together!
 
