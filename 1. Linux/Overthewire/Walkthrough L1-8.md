@@ -1,7 +1,6 @@
 # OverTheWire **Bandit** Game Walk‑through — Levels 0  ➡  8
 
-[
-](https://0xffd700.com/bl-content/uploads/pages/235dd5a1a58e7e86a12bce71f51c34c5/cover-bandit.png)
+![image](https://0xffd700.com/bl-content/uploads/pages/235dd5a1a58e7e86a12bce71f51c34c5/cover-bandit.png)
 
 > Bandit is a game designed to practice your ability to work with the Linux terminal. Each level presents unique tasks, requiring you to navigate directories, manipulate files, and leverage various commands to uncover hidden passwords and progress to the next stage.
 
