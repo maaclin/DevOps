@@ -1,8 +1,6 @@
-> # DevOps
+> **My DevOps Engineering Journey**
 
 > ![image](https://devopedia.org/images/article/54/7602.1513404277.png)
-
-**My DevOps Engineering Journey**
 
 > Welcome to my GitHub repo where I’m documenting my adventure into becoming a DevOps engineer. This is my personal space to track my progress, store notes, scripts, projects, and whatever else I pick up along the way.
 
