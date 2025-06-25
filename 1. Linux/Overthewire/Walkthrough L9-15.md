@@ -65,3 +65,29 @@ cat data               # FO5dwFsc0cba1H0h8J2eUks2vdTDwAn
 
 ![image](https://github.com/user-attachments/assets/d65b0d60-c3d6-45dc-8391-bdf84da0ecdf)
 
+### Level 13 ➡ 14 — SSH Keys
+
+The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. We use the ssh key to log into the next level and then use cat to read the password at /bandit_pass/bandit14. 
+
+
+
+```bash
+ssh -i sshkey.private bandit14@localhost -p 2220
+cat /etc/bandit_pass/bandit14     #MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
+
+
+### Level 14 ➡ 15 — Using NC
+
+The password for Bandit Level 15 was stored on a server listening on port 3000 of localhost. My task was to retrieve the password by sending a request to the server.
+
+```bash
+nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS    #8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
+
+<img width="721" alt="Screenshot 2025-06-25 at 16 53 29" src="https://github.com/user-attachments/assets/5ec586cc-3b30-4545-95ab-2910a4ecbcde" /> 
+
+
+
+
