@@ -1,6 +1,8 @@
 # DevOps
 
-My DevOps Engineering Journey
+[!image](https://devopedia.org/images/article/54/7602.1513404277.png)
+
+**My DevOps Engineering Journey**
 
 Welcome to my GitHub repo where I’m documenting my adventure into becoming a DevOps engineer. This is my personal space to track my progress, store notes, scripts, projects, and whatever else I pick up along the way.
 
@@ -13,6 +15,7 @@ Terraform: Learning infrastructure as code to provision and manage cloud resourc
 Docker: Containerizing applications to make them portable and consistent across environments.
 AWS: Exploring Amazon Web Services to build and deploy scalable cloud solutions.
 Kubernetes: Orchestrating containers to manage complex, distributed systems.
+Git: Mastering version control to track code changes, collaborate, and keep my projects organized.
 
 I love solving problems, automating repetitive tasks, and building systems that just work. This repo is my way of staying organized, reflecting on what I’ve learned, and maybe even helping others who are on a similar path.
 
