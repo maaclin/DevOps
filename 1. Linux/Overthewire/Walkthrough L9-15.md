@@ -85,6 +85,6 @@ The next password can retrieved by submitting the password of the current level 
 
 openssl s_client -connect localhost:30001
 
-<img width="695" alt="Screenshot 2025-06-25 at 22 12 58" src="https://github.com/user-attachments/assets/6901f0db-0e61-453b-a55e-f7fd725f0a7c" />
-
 ```
+
+<img width="690" alt="Screenshot 2025-06-25 at 22 16 43" src="https://github.com/user-attachments/assets/31bc3005-d424-47e0-967f-1e3ffd414c5e" /> 
