@@ -1,5 +1,6 @@
 # OverTheWire **Bandit** Walk‑through — Levels 9 ➡ 15
 
+Now it's starting to heat up!
 ---
 
 ## 💡 Prereqs
@@ -79,7 +80,7 @@ cat /etc/bandit_pass/bandit14     #MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ### Level 14 ➡ 15 — Using NC
 
-The password for Bandit Level 15 was stored on a server listening on port 3000 of localhost. My task was to retrieve the password by sending a request to the server.
+The password for Bandit Level 15 was stored on a server listening on port 3000 of localhost. We use netstat to connect to port 30000 and enter our previous password to give us the new password.
 
 ```bash
 nc localhost 30000
@@ -88,6 +89,14 @@ MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS    #8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 <img width="721" alt="Screenshot 2025-06-25 at 16 53 29" src="https://github.com/user-attachments/assets/5ec586cc-3b30-4545-95ab-2910a4ecbcde" /> 
 
+### Level 15 ➡ 16 — Encrypted Connection over SSL 
 
+The next password can retrieved by submitting the password of the current level to port 30001 on localhost using SSL/TLS encryption. We will use openssl s_client -connect localhost:30001 to connect to the server at port 30001 and we will get the certification details and simply enter the password into the field to get the next one.
 
+```bash
 
+openssl s_client -connect localhost:30001
+
+<img width="695" alt="Screenshot 2025-06-25 at 22 12 58" src="https://github.com/user-attachments/assets/6901f0db-0e61-453b-a55e-f7fd725f0a7c" />
+
+```
