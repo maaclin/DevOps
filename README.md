@@ -1,6 +1,6 @@
 # DevOps
 
-[!image](https://devopedia.org/images/article/54/7602.1513404277.png)
+![image](https://devopedia.org/images/article/54/7602.1513404277.png)
 
 **My DevOps Engineering Journey**
 
