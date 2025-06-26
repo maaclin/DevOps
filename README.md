@@ -1,12 +1,12 @@
 # 🚀 DevOps Learning Journey
 
-![DevOps Banner](https://devopedia.org/images/article/54/7602.1513404277.png)
+<p align="center">
+  <img src=https://devopedia.org/images/article/54/7602.1513404277.png" alt="Devops" width="180" height="180"/>!
 
-Welcome to my GitHub repository documenting my pathway to becoming a DevOps engineer! This is my personal learning space where I track progress, store notes, scripts, projects, and resources as I dive deeper into the DevOps world.
 
 ## 📚 About This Repository
 
-This repo serves as my digital notebook and portfolio, constantly evolving as I expand my knowledge. Here you'll find organized notes, code snippets, configurations, and hands-on projects that showcase my learning journey.
+Welcome to my GitHub repository documenting my pathway to becoming a DevOps engineer! This is my personal learning space where I track progress, store notes, scripts, projects, and resources as I dive deeper into the DevOps world. This repo serves as my digital notebook and portfolio, constantly evolving as I expand my knowledge. Here you'll find organized notes, code snippets, configurations, and hands-on projects that showcase my learning journey.
 
 ## 🎯 Learning Focus Areas
 
