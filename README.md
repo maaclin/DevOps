@@ -2,7 +2,7 @@
 
 > ![image](https://devopedia.org/images/article/54/7602.1513404277.png)
 
-> Welcome to my GitHub repo where I’m documenting my adventure into becoming a DevOps engineer. This is my personal space to track my progress, store notes, scripts, projects, and whatever else I pick up along the way.
+> Welcome to my GitHub repo where I’m documenting my pathway into becoming a DevOps engineer. This is my personal public space to track my progress, store notes, scripts, projects, and whatever else I pick up along the way.
 
 > This repo is like my digital notebook, where I’ll organize my notes, code snippets, configurations, and small projects as I learn. It’s a work in progress, and I’m constantly adding new stuff as I go deeper into each subject. Here’s what I’m focusing on:
 
