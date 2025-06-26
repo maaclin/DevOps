@@ -49,7 +49,7 @@ Mastering Git workflows for code management, collaboration, and project organiza
 ```
 ├── networking/          # Network concepts and configurations
 ├── linux/              # Linux administration notes and scripts
-├── bash-scripts/       # Automation scripts and utilities
+├── bash/       # Automation scripts and utilities
 ├── terraform/          # IaC templates and modules
 ├── containers/         # Docker and Kubernetes projects
 ├── aws/                # AWS services and architectures
