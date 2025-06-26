@@ -1,7 +1,7 @@
 # 🚀 DevOps Learning Journey
 
 <p align="center">
-  <img src="https://devopedia.org/images/article/54/7602.1513404277.png" alt="Devops" width="540" height="360"/>!
+  <img src="https://devopedia.org/images/article/54/7602.1513404277.png"style="width: 100%; max-width: 1200px; height: auto;" alt="Banner"/>>
 
 
 ## 📚 About This Repository
