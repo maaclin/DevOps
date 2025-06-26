@@ -26,4 +26,8 @@
 
 📌  I’m always up for chatting about DevOps, tech, or just geeking out over cool tools. You can find me on Linkedin - [Yossief Solomon](https://www.linkedin.com/in/yossief-s/) or just drop a comment here on GitHub.
 
-![Maaclin's GitHub stats](https://github-readme-stats.vercel.app/api?username=maaclin&show_icons=true&theme=transparent)
+![Yossief's GitHub stats](https://github-readme-stats.vercel.app/api?username=maaclin&show_icons=true&theme=transparent)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin)](https://github.com/maaclin/github-readme-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin&size_weight=0.5&count_weight=0.5)
