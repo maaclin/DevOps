@@ -1,5 +1,18 @@
-> **My DevOps Engineering Journey**
 
+![Yossief's GitHub stats](https://github-readme-stats.vercel.app/api?username=maaclin&show_icons=true&theme=transparent)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin&size_weight=0.5&count_weight=0.5)
+
+<h2> 🚀 &nbsp;Some Tools I Have Used and Learned</h2>
+<p align="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="terraform" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" alt="git" width="45" height="45"/>
+          
+        
 > ![image](https://devopedia.org/images/article/54/7602.1513404277.png)
 
 > Welcome to my GitHub repo where I’m documenting my pathway into becoming a DevOps engineer. This is my personal public space to track my progress, store notes, scripts, projects, and whatever else I pick up along the way.
@@ -26,8 +39,4 @@
 
 📌  I’m always up for chatting about DevOps, tech, or just geeking out over cool tools. You can find me on Linkedin - [Yossief Solomon](https://www.linkedin.com/in/yossief-s/) or just drop a comment here on GitHub.
 
-![Yossief's GitHub stats](https://github-readme-stats.vercel.app/api?username=maaclin&show_icons=true&theme=transparent)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin)](https://github.com/maaclin/github-readme-stats)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin&size_weight=0.5&count_weight=0.5)
