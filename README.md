@@ -56,6 +56,21 @@ Mastering Git workflows for code management, collaboration, and project organiza
 ├── git/                # Git workflows and best practices
 └── projects/           # Hands-on projects and labs
 ```
+🏆 Certifications & Badges
+
+<p align="center">
+  <a href="https://www.credly.com/badges/19c3f760-9975-4b42-a53a-56d3f94f8343">
+    <img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Microsoft Azure Fundamentals" width="120" height="120"/>
+  </a>
+  <a href="https://www.credly.com/badges/87807bc5-d837-48fe-812f-8267b385d1d9">
+    <img src="https://images.credly.com/size/340x340/images/85b9cfc4-257a-4742-878c-4f7ab4a2631b/image.png" alt="HashiCorp Certified Terraform Associate" width="120" height="120"/>
+  </a>
+</p>
+
+🎯 Earned Certifications:
+
+Microsoft Azure Fundamentals (AZ-900) - Foundational knowledge of cloud services and Microsoft Azure
+HashiCorp Certified: Terraform Associate - Demonstrates skills in Infrastructure as Code using Terraform</p>
 
 ## 🌱 Current Progress
 
