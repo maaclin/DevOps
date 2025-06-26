@@ -63,7 +63,7 @@ Mastering Git workflows for code management, collaboration, and project organiza
     <img src="https://images.credly.com/size/340x340/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" alt="Microsoft Azure Fundamentals" width="120" height="120"/>
   </a>
   <a href="https://www.credly.com/badges/87807bc5-d837-48fe-812f-8267b385d1d9">
-    <img src="https://images.credly.com/size/340x340/images/85b9cfc4-257a-4742-878c-4f7ab4a2631b/image.png" alt="HashiCorp Certified Terraform Associate" width="120" height="120"/>
+    <img src="https://images.credly.com/size/680x680/images/ed4be915-68f8-428a-b332-40ded9084ee5/blob" alt="HashiCorp Certified Terraform Associate" width="120" height="120"/>
   </a>
 </p>
 
