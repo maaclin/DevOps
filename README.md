@@ -81,5 +81,3 @@ Learning is always better together!
 I'm always open to connecting with fellow learners and professionals in the DevOps space. Feel free to reach out through GitHub issues or discussions.
 
 You can find me on Linkedin - [Yossief Solomon](https://www.linkedin.com/in/yossief-s/) or just drop a comment here on GitHub.
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maaclin&size_weight=0.5&count_weight=0.5)
