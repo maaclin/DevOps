@@ -1,6 +1,6 @@
 # 🧠 Bash Scripting Practice Tasks
 
-This folder contains a set of beginner-level Bash scripts I've written while learning the basics of Linux shell scripting. Each script focuses on a different skill like arithmetic, file handling, conditionals, and backups. These were completed as part of a DevOps learning journey.
+This folder contains a set of beginner-level Bash scripts I've written while learning the basics of Linux shell scripting. Each script focuses on a different skill like arithmetic, file handling, conditionals, and backups. These were completed as part of the BASH module.
 
 ---
 
