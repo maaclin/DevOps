@@ -15,9 +15,7 @@ Create a folder called `Arena` and add three text files: `warrior.txt`, `mage.tx
 Basic commands like `mkdir`, `touch`, and `ls`.
 
 **Run it:**  
-```bash
-bash level1.sh
-```
+``./level1.sh``
 
 ---
 
@@ -30,9 +28,7 @@ Output the numbers 1 to 10 using a loop.
 How to use `for` loops and variables.
 
 **Run it:**  
-```bash
-bash level2.sh
-```
+``./level2.sh``
 
 ---
 
@@ -45,9 +41,7 @@ Check if a file called `hero.txt` exists in the `Arena` folder.
 How to use `if` statements and file checks (`-f`).
 
 **Run it:**  
-```bash
-bash level3.sh
-```
+``./level3.sh``
 
 ---
 
@@ -60,9 +54,7 @@ Copy all `.txt` files from `Arena` to a folder called `Backup`.
 How to use `cp`, wildcards, and `mkdir -p`.
 
 **Run it:**  
-```bash
-bash level4.sh
-```
+``./level4.sh``
 
 ---
 
@@ -75,9 +67,7 @@ Combine skills: create a folder, create files, move one file if it exists, and l
 Working with folders, files, conditions, and output all together.
 
 **Run it:**  
-```bash
-bash level5.sh
-```
+``./level5.sh``
 
 ---
 
@@ -90,9 +80,7 @@ Write a script that takes a filename as an argument and prints how many lines it
 Using `$1` to get input, validating arguments, and counting lines with `wc -l`.
 
 **Run it:**  
-```bash
-bash level6.sh filename.txt
-```
+```level6.sh filename.txt```
 
 ---
 
@@ -105,9 +93,7 @@ Sort `.txt` files by size from smallest to largest.
 Using `find`, `ls -lh`, `sort`, and `awk`.
 
 **Run it:**  
-```bash
-bash level7.sh
-```
+``./level7.sh``
 
 ---
 
@@ -120,9 +106,7 @@ Search all `.log` files in a directory for a specific word and list matching fil
 Using `grep -l` to search multiple files.
 
 **Run it:**  
-```bash
-bash level8.sh
-```
+``./level8.sh``
 
 ---
 
@@ -135,9 +119,7 @@ Watch a folder and log when files are added, deleted, or changed.
 Using `fswatch`, `while read`, timestamps, and logging file events.
 
 **Run it:**  
-```bash
-bash level9.sh
-```
+``./level9.sh``
 
 > Note: You must have `fswatch` installed. On macOS: `brew install fswatch`.
 
@@ -152,9 +134,7 @@ Create files with random content, sort by size, and move any file that contains 
 Combining loops, random numbers, file writing, searching, and moving files together.
 
 **Run it:**  
-```bash
-bash level10.sh
-```
+``./level10.sh``
 
 ---
 
