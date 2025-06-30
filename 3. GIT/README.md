@@ -2,10 +2,11 @@ Git fundamentals
 
 git basic lifecycle
 
-create/clone repo
-modify files locally
-review changes using git status/diff
-add changes to workflow using git add 
-commit changes with git commit
-push to repo using git push 
+
+1 - create/clone repo
+2 - modify files locally
+3 - review changes using git status/diff
+4 - add changes to workflow using git add 
+5 - commit changes with git commit
+6 - push to repo using git push 
 
