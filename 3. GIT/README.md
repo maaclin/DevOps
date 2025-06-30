@@ -1,3 +1,5 @@
+This is the main version of README.
+
 Git fundamentals
 
 git basic lifecycle
