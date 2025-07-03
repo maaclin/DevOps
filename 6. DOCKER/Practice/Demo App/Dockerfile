@@ -11,5 +11,7 @@ RUN npm install
 COPY . /app
 # Tells Docker your app will listen on port 80 (this is just a placeholder, not a requirement).
 EXPOSE 80 
+# Sets target folder inside container for volume
+VOLUME [ "/app/feedback" ]
 # Runs your app when the container starts.
 CMD [ "node", "server.js" ]
