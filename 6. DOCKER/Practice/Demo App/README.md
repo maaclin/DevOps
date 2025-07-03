@@ -44,7 +44,10 @@ And if we connect to our node application on localhost:3000 we'll see...
 
 ![Node application](images/Node.png)
 
-Our feedback is stored in the container's `/feedback` folder as a new file matching the title, per the server.js configuration. This is isolated from the local system, as containers are designed to be self-contained. This means that when the container shuts down and is deleted (--rm flag) and is restarted with no volume attached, files will be lost.
+Our feedback is stored in the container's `/feedback` folder as a new file matching the title, per the server.js configuration. As there is no volume attached to our container, this is isolated from the local system and when the container shuts down,is deleted (--rm flag) and is restarted with no volume attached, files will be lost.
 
 ![Feedback](images/feedback.png)
- 
+
+
+## Attaching a volume 
+
