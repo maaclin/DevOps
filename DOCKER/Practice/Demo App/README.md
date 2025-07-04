@@ -1,6 +1,5 @@
 # Docker & Kubernetes: The Practical Guide - Containerizing a Node Application
 
-This is a demo app taken from Academics Docker & Kubernetes: The Practical Guide to visualize using Docker to create an image and containerize a simple Node application.
 
 ## Creating the Dockerfile
 
@@ -44,10 +43,76 @@ And if we connect to our node application on localhost:3000 we'll see...
 
 ![Node application](images/Node.png)
 
-Our feedback is stored in the container's `/feedback` folder as a new file matching the title, per the server.js configuration. As there is no volume attached to our container, this is isolated from the local system and when the container shuts down,is deleted (--rm flag) and is restarted with no volume attached, files will be lost.
+Our feedback is stored in the container's `/feedback` folder as a new file matching the title, per the server.js configuration. As there is no volume attached, this data is isolated from the local system. When the container shuts down (due to the --rm flag), the feedback files are deleted. Restarting the container without a volume means all previous data will be lost.
 
 ![Feedback](images/feedback.png)
 
 
-## Attaching a volume 
+## External storage options
+
+Anonymous volumes are managed by Docker and are used to store data. However, we cannot directly edit their contents, and Docker assigns an unknown path on the host machine to store this data. These are useful for locking in certain data that already exists within a container and avoiding it getting overwritten. 
+
+Named volumes persist and can be reused by name, while anonymous volumes also persist but are harder to track or reuse.
+
+In our Node application, we can attach a named volume so that feedback data still exists after the container shuts down and we will still be able to see files saved to /feedback.
+
+Bind mounts are managed by the user and enable reading and writing files between the container and the local system. You can specify at startup using the -v flag with an absolute path, such as `-v /absolute/path/to/folder:/targetfolder`. After the container stops and restarts, the files persist because they are stored on the host machine. This setup allows you to edit source code without needing to rebuild or recreate the container each time a change is made. Docker must have access to the file path by granting file sharing permissions.
+
+## 🛠️ Volumes vs Bind Mounts
+
+Using a bind mount like this:
+
+```bash
+-v $(pwd):/app
+```
+
+lets you:
+
+- ✅ Edit your source code locally
+- ✅ See changes live in the container without rebuilding
+- 🚫 But it also **overwrites `/app/node_modules`**, breaking your app!
+
+---
+
+⚠️ Problem: `node_modules` Is Overwritten
+
+When the whole `/app` folder is replaced by the host version (your source files), the installed dependencies (`node_modules`) from inside the container get wiped.
+
+This often causes your app to break with "module not found" errors.
+
+---
+
+✅ Solution: Add a Separate Volume for `node_modules`
+
+To avoid this, we **mount a separate Docker-managed volume just for `node_modules`**:
+
+```bash
+docker run \
+  -v $(pwd):/app \
+  -v /app/node_modules \
+  my-node-app
+```
+
+### 🔍 Breakdown:
+- `-v $(pwd):/app` → Bind mount your source code folder
+- `-v /app/node_modules` → Anonymous volume that preserves the container’s dependencies
+
+---
+
+## 🧪 Example: Editing Source Code Live
+
+After setting up the container correctly, I changed the following line in my HTML:
+
+```html
+<title>Mysite</title>
+```
+
+to:
+
+```html
+<title>Yossief's Feedback</title>
+```
+
+✅ The change was instantly visible in the browser without restarting or rebuilding the container!
+
 
