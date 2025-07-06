@@ -1,6 +1,7 @@
 # Learn Git Branching – First 8 Levels Summary
 A fun, visual way to actually understand Git — not just memorize commands.
 
+![Gitlearning](images/gitlearning.png)
 
 ### 🌱 Level 1: Introduction to Git Commits
 Goal: Learn the basics of creating commits and seeing your commit history.
