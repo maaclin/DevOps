@@ -1,4 +1,4 @@
-# Docker & Kubernetes: The Practical Guide - Containerizing a Node Application
+# Docker & Kubernetes: The Practical Guide - Containerizing our First Node Application
 
 
 ## Creating the Dockerfile
