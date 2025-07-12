@@ -14,7 +14,7 @@ We:
 - Provide the command to run the app when the container starts.
 
 
-![Dockerfile](/hello_flask/images/dockerfile1.png)
+![Dockerfile](hello_flask/images/dockerfile1.png)
 
 ---
 
@@ -36,7 +36,7 @@ docker run -d --name hello-flask -p 5002:5002 hello_flask
 - `--name` assigns a name to the container.
 - `-p 5002:5002` maps the container’s port 5002 to the host’s port 5002.
 
-![Image](/hello_flask/images/image.png)
+![Image](hello_flask/images/image.png)
 
 ---
 
@@ -76,7 +76,7 @@ docker run -d --name hello-flask --network my-custom-network -p 5002:5002 hello_
 
 Now, your Flask app can connect to the database using `mydb` as the hostname. We can now go to localhost:5002 on our browser and see our Hello World script with our MySQL version.
 
-![Final](/hello_flask/images/final.png) 
+![Final](hello_flask/images/final.png) 
 
 ---
 
