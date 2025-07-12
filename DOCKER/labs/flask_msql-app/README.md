@@ -78,15 +78,30 @@ Now, your Flask app can connect to the database using `mydb` as the hostname. We
 
 ![Final](hello_flask/images/final.png) 
 
----
+## Docker compose
 
-## Summary
+To make container creation quicker and more repeatable, we use **Docker Compose** to define a reusable template for our application's services. This allows us to manage multiple containers with a single command.
 
-- `Dockerfile` builds a lightweight Flask image with MySQL support.
-- Image and containers are created using `docker build` and `docker run`.
-- A custom Docker network allows easy communication between app and DB.
-- MySQL container is initialized with a secure root password.
-- We can access our web application on localhost:5002.
+In the `docker-compose.yml` file, we outline the following:
+
+- **`version`** – the syntax version of Docker Compose  
+- **`services`** – each container we want to create (e.g. `web`, `db`)  
+- **`container_name`** – name for each container  
+- **`image`** – which image each service uses  
+- **`depends_on`** – define which containers should start first  
+- **`environment`** – specify necessary environment variables like database credentials  
+
+![Compose-yml](hello_flask/images/compose.png)
+
+### ▶️ Running Docker Compose
+
+Use the following command to bring up all defined containers in detached mode (running in the background):
+
+```bash
+docker-compose up -d
+```
+
+This gives us a reliable, repeatable and less error-prone process to build and launch the full environment for our Flask app and MySQL database with a single command.
 
 ---
 
