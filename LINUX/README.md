@@ -10,7 +10,7 @@ Welcome to my Linux learning journey! This repo documents my hands-on progress t
 ## 🕹️ OverTheWire: Bandit
 
 > **Goal:** Learn Linux essentials through practical puzzles that increase in complexity.  
-> **Progress:** Up to Level XX (update as you go!)
+> **Progress:** Up to Level 16
 
 Skills covered:
 - Navigating the filesystem (`cd`, `ls`, `find`)
