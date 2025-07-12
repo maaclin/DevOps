@@ -7,14 +7,6 @@ Welcome to my Linux learning journey! This repo documents my hands-on progress t
 
 ---
 
-## 📂 Contents
-
-- `bandit-progress.md` – Notes, commands, and solutions from each Bandit level.
-- `sad-servers-notes.md` – My thought process and fixes for each SAD Servers problem I attempted.
-- `useful-commands.md` – A growing list of shell commands, tips, and bash tricks I’ve picked up along the way.
-
----
-
 ## 🕹️ OverTheWire: Bandit
 
 > **Goal:** Learn Linux essentials through practical puzzles that increase in complexity.  
