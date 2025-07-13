@@ -22,7 +22,7 @@ The Dockerfile will define the environment and instruct on how to set up and run
 
 Docker compose allows us to run multi container applications within the same network, allowing them to work together simultaneously. 
 
-![Docker compose](/images/compose1.png)
+![Docker compose](images/compose1.png)
 
 We use `docker-compose up --build` to build our Docker image for the application, then start both containers with the flask container depending on the redis container. This ensures that the flask application does not start without being connected to the database first.
 
