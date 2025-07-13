@@ -40,3 +40,9 @@ Last, I added an NGINX server to my application to act as a load balancer, distr
 To scale the application and run multiple instances, I rebuilt the services with the command `docker-compose up --scale webapp=3`. This creates three webapp containers, and NGINX load balances traffic across them for better performance and reliability.
 
 ![Nginx](images/nginx.png)
+
+## Final Product
+
+![count](images/count.png)
+
+![homepage](images/homepage.png)
