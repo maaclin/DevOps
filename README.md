@@ -54,27 +54,17 @@ Mastering Git workflows for code management, collaboration, and project organiza
 ├── containers/         # Docker and Kubernetes projects
 ├── aws/                # AWS services and architectures
 ├── git/                # Git workflows and best practices
-└── projects/           # Hands-on projects and labs
+└── projects/           # Hands-on projects showcase
 ```
 
 - ✅ Linux fundamentals and command-line basics
 - ✅ Git version control workflows
-- 🔄 Bash scripting automation
-- 🔄 Docker containerization
+- ✅ Bash scripting automation
+- ✅ Docker containerization
 - 📚 AWS core services exploration
 - 📚 Terraform infrastructure provisioning
 - 🎯 Kubernetes orchestration (upcoming)
 
-## 🤝 Contributing & Collaboration
-
-If you're also on a DevOps learning journey, feel free to:
-
-- 🔍 Explore this repository for inspiration and ideas
-- 🐛 Open an issue if you spot any mistakes or have suggestions
-- 💡 Share tips, resources, or feedback
-- 🤝 Collaborate on projects or learning exercises
-
-Learning is always better together! 
 
 ## 📬 Get In Touch
 
