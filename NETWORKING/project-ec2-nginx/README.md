@@ -57,7 +57,7 @@ sudo systemctl start nginx && sudo systemctl enable nginx
 Add A records (Cloudflare or Route 53):
 - Name: new, Value: <Elastic-IP>, Type: A.
 
-![Arecord](/images/nginx.png)
+![Arecord](images/nginx.png)
 
 Result: ```new.nginxcoderco.click```
 Verify: ```dig nginxcoderco.click```
@@ -95,7 +95,7 @@ sudo nginx -t && sudo systemctl reload nginx
 
 Visit new.nginxcoderco.click
 
-![Final](/images/final.png)
+![Final](images/final.png)
 
 Troubleshoot:
 
