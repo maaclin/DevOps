@@ -1,5 +1,5 @@
 
-# NGINX Website on AWS EC2: nginxcoderco.click
+# 🌐 NGINX Website on AWS EC2: nginxcoderco.click
 
 This README documents the setup of a website hosted on an AWS EC2 instance running NGINX, accessible at new.nginxcoderco.click.
 
@@ -12,7 +12,7 @@ This README documents the setup of a website hosted on an AWS EC2 instance runni
 
 ### Purchase Domain:
 
-Register nginxcoderco.click via Cloudflare or Route 53 (approximately $3 a year for the .click domain different domains vary in price).
+Register nginxcoderco.click via Cloudflare or Route 53 (around $3 a year for the .click domain different domains vary in price).
 Set nameservers to Cloudflare or use Route 53’s hosted zone.
 
 
@@ -57,8 +57,11 @@ sudo systemctl start nginx && sudo systemctl enable nginx
 Add A records (Cloudflare or Route 53):
 - Name: new, Value: <Elastic-IP>, Type: A.
 
+![Arecord](/images/nginx.png)
+
 Result: ```new.nginxcoderco.click```
 Verify: ```dig nginxcoderco.click```
+
 
 
 ## Configure NGINX:
@@ -91,6 +94,8 @@ sudo nginx -t && sudo systemctl reload nginx
 ## Test Website:
 
 Visit new.nginxcoderco.click
+
+![Final](/images/final.png)
 
 Troubleshoot:
 
