@@ -95,7 +95,7 @@ sudo nginx -t && sudo systemctl reload nginx
 
 Visit new.nginxcoderco.click
 
-![Final](images/final.png)
+![Final](images/draft.png)
 
 Troubleshoot:
 
