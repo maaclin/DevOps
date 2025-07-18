@@ -47,9 +47,9 @@ Mastering Git workflows for code management, collaboration, and project organiza
 ## 📁 Repository Structure
 
 ```
-├── networking/          # Network concepts and configurations
+├── networking/         # Network concepts and configurations
 ├── linux/              # Linux administration notes and scripts
-├── bash/       # Automation scripts and utilities
+├── bash/               # Automation scripts and utilities
 ├── terraform/          # IaC templates and modules
 ├── containers/         # Docker and Kubernetes projects
 ├── aws/                # AWS services and architectures
