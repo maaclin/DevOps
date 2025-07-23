@@ -1,0 +1,14 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.pem
+*.log
+*.zip
+*.tar.gz
+*.bak
+cloud-init-output.log
+terraform.tfvars
+modules/*/.terraform/**/.terraform/
+*.tfstate
+*.tfstate.backup
