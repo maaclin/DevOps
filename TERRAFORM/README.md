@@ -38,7 +38,7 @@ This repository documents my learning journey for the HashiCorp Certified Terraf
 
 ## Projects Completed 🛠️
 
-### Project 1: WordPress Deployment
+### Project : WordPress Deployment
 Complete multi-tier WordPress infrastructure on AWS including:
 - VPC with public subnet
 - EC2 web server
@@ -46,10 +46,7 @@ Complete multi-tier WordPress infrastructure on AWS including:
 
 Automated EC2 instance deployment with user-data:
 - Dynamic cloud-init script generation
-- Template file usage with variables
 - Automated software installation and configuration
-- Instance bootstrapping and service setup
-
 ---
 
 ## Key Skills Developed
@@ -60,4 +57,8 @@ Automated EC2 instance deployment with user-data:
 - Creating reusable modules
 - Working with multiple cloud providers
 
+## Project Extension
+
+ - Secure database using Vault
+ - Use Route53 to connect our application to a domain 
 ---
