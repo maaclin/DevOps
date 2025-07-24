@@ -31,7 +31,6 @@ This project creates a simple infrastructure consisting of:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd wordpress-vault-infrastructure
    ```
 
 2. **Review and modify variables**
