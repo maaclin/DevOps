@@ -40,14 +40,11 @@ This repository documents my learning journey for the HashiCorp Certified Terraf
 
 ### Project 1: WordPress Deployment
 Complete multi-tier WordPress infrastructure on AWS including:
-- VPC with public/private subnets
-- RDS MySQL database
-- EC2 web servers with load balancer
-- Security groups and network ACLs
-- Auto-scaling configuration
+- VPC with public subnet
+- EC2 web server
+- Security groups
 
-### Project 2: Cloud-Init EC2 Automation
-Automated EC2 instance deployment with cloud-init:
+Automated EC2 instance deployment with user-data:
 - Dynamic cloud-init script generation
 - Template file usage with variables
 - Automated software installation and configuration
@@ -59,7 +56,6 @@ Automated EC2 instance deployment with cloud-init:
 
 - Writing maintainable Terraform configurations
 - Managing infrastructure state and dependencies
-- Implementing security best practices
 - Troubleshooting deployment issues
 - Creating reusable modules
 - Working with multiple cloud providers
