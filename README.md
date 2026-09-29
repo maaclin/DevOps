@@ -70,4 +70,3 @@ Mastering Git workflows for code management, collaboration, and project organiza
 
 I'm always open to connecting with fellow learners and professionals in the DevOps space. Feel free to reach out through GitHub issues or discussions.
 
-You can find me on Linkedin - [Yossief Solomon](https://www.linkedin.com/in/yossief-s/) or just drop a comment here on GitHub.
